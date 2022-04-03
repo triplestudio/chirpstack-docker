@@ -1,0 +1,55 @@
+# See https://www.chirpstack.io/network-server/install/config/ for a full
+# configuration example and documentation.
+#
+# This file is for the EU868 band. See the examples/ folder for more
+# configuration examples.
+
+[postgresql]
+dsn="postgres://chirpstack_ns:chirpstack_ns@postgresql/chirpstack_ns?sslmode=disable"
+
+[redis]
+url="redis://redis:6379"
+
+[network_server]
+net_id="000000"
+
+[network_server.band]
+name="AS923"
+
+[network_server.network_settings]
+
+  [[network_server.network_settings.extra_channels]]
+  frequency=922200000
+  min_dr=0
+  max_dr=5
+
+  [[network_server.network_settings.extra_channels]]
+  frequency=922400000
+  min_dr=0
+  max_dr=5
+
+  [[network_server.network_settings.extra_channels]]
+  frequency=922600000
+  min_dr=0
+  max_dr=5
+
+  [[network_server.network_settings.extra_channels]]
+  frequency=922800000
+  min_dr=0
+  max_dr=5
+
+  [[network_server.network_settings.extra_channels]]
+  frequency=923000000
+  min_dr=0
+  max_dr=5
+
+  [[network_server.network_settings.extra_channels]]
+  frequency=922000000
+  min_dr=0
+  max_dr=5
+
+[network_server.gateway.backend.mqtt]
+server="tcp://mosquitto:1883"
+
+[join_server.default]
+server="http://chirpstack-application-server:8003"
