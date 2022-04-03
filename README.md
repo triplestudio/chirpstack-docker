@@ -17,7 +17,7 @@ UDP 端口：1700
 ```
 sudo apt-get update
 sudo apt install docker-compose
-git clone https://github.com/rimelink-lorawan/chirpstack-docker.git
+git clone https://github.com/triplestudio/chirpstack-docker.git
 cd chirpstack-docker
 ```
 启动应用，不同的 LoRaWAN 区域频段对应相应名称的子目录，目前仅配置部分区域频段，区域频段定义如下：
