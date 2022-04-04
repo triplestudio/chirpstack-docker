@@ -37,7 +37,7 @@ sudo docker-compose up -d
 默认登录密码 admin
 
 添加 Network-servers
-nschirpstack-network-server:8000
+`chirpstack-network-server:8000`
 
 查看日志使用以下命令
 ```
