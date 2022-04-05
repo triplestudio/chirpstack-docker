@@ -44,3 +44,7 @@ sudo docker-compose up -d
 sudo docker-compose logs
 ```
 
+注意：默认的配置文件适合快速测试，生产环境，则可能需要修改。
+
+## 其它
+操作实践视频：https://mp.weixin.qq.com/s/A0TjrIVbBWAC2CB2BMD4Sg
