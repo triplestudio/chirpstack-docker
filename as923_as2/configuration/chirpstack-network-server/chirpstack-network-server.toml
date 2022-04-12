@@ -316,6 +316,7 @@ get_downlink_data_delay="100ms"
   # enabled_uplink_channels=[0, 1, 2, 3, 4, 5, 6, 7, 64]
   # Exmaple: (sub-band 2)
   # enabled_uplink_channels=[8, 9, 10, 11, 12, 13, 14, 15, 65]
+  enabled_uplink_channels=[80, 81, 82, 83, 84, 85, 86, 87]
 
 
   # Extra channel configuration.
@@ -329,32 +330,32 @@ get_downlink_data_delay="100ms"
   #
   # Example:
   [[network_server.network_settings.extra_channels]]
-  frequency=922200000
+  frequency=923600000
   min_dr=0
   max_dr=5
 
   [[network_server.network_settings.extra_channels]]
-  frequency=922400000
+  frequency=923800000
   min_dr=0
   max_dr=5
 
   [[network_server.network_settings.extra_channels]]
-  frequency=922600000
+  frequency=924000000
   min_dr=0
   max_dr=5
 
   [[network_server.network_settings.extra_channels]]
-  frequency=922800000
+  frequency=924200000
   min_dr=0
   max_dr=5
 
   [[network_server.network_settings.extra_channels]]
-  frequency=923000000
+  frequency=924400000
   min_dr=0
   max_dr=5
 
   [[network_server.network_settings.extra_channels]]
-  frequency=922000000
+  frequency=924600000
   min_dr=0
   max_dr=5
 
