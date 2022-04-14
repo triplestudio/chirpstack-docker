@@ -53,3 +53,11 @@ sudo docker-compose logs
 **LoRa Server 配置与管理**：https://blog.csdn.net/jiangjunjie_2005/article/details/96169551
 
 **频段定义**：https://www.thethingsnetwork.org/docs/lorawan/frequency-plans/
+
+**channels**
+| Band         | Channels     |  
+|--------------|-----------| 
+| US915 | 8,9,10,11,12,13,14,15,65      |  
+| EU868      | 0,1,2,3,4,5,6,7  | 
+| AS923-AS2      | 0,1,2,3,4,5,6,7 | 
+
