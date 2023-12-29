@@ -39,7 +39,7 @@ sudo docker-compose up -d
 
 **配置 ChirpStack**：https://blog.csdn.net/jiangjunjie_2005/article/details/96169551
 
-通过 docker-compose 方式安装， Network-servers 默认请配置为 `chirpstack-network-server:8000`（不是 localhost）：
+注意：通过 docker-compose 方式安装， Network-servers 默认请配置为 `chirpstack-network-server:8000`（不是 localhost:8000）：
 ```
 chirpstack-network-server:8000
 ```
