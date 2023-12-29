@@ -28,6 +28,7 @@ cd chirpstack-docker-master
 * 中国 CN470  
 * 欧洲 EU868
 * 美国 US915
+  
 以使用 CN470 为例启用，通过继续执行以下命令进行启动。
 ```
 cd cn470
