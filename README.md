@@ -35,17 +35,15 @@ cd cn470
 sudo docker-compose up -d
 ```
 
-### 3、配置与管理
+### 3、添加 Network-servers
+浏览器打开 http://服务器IP:8080 
+默认登录账号 admin
+默认登录密码 admin
+添加 Network-servers
+`chirpstack-network-server:8000`
+
+### 4、配置与管理
 
 **配置 ChirpStack**：https://blog.csdn.net/jiangjunjie_2005/article/details/96169551
-
-注意：通过 docker-compose 方式安装， Network-servers 默认请配置为 `chirpstack-network-server:8000`（不是 localhost:8000）：
-```
-chirpstack-network-server:8000
-```
-
-![image](https://github.com/triplestudio/chirpstack-docker/assets/31872313/03e9f86c-7462-4be0-9d1e-36ca3cbd9e1c)
-
-
 
 
