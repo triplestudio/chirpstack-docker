@@ -46,4 +46,6 @@ sudo docker-compose up -d
 
 **配置 ChirpStack**：https://blog.csdn.net/jiangjunjie_2005/article/details/96169551
 
+### 5、日志
+2024-05-17 增加 EU433
 
